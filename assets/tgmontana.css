@@ -1,0 +1,61 @@
+*{
+  font-size:16px;
+}
+.container{
+  width:100%;
+  display:block;
+  padding:0;
+}
+.section-one{
+  background-image:url(landscape-1280.jpg);
+  position:fixed;
+  width:100%;
+  height:580px;
+
+}
+.container img{
+  width:100%;
+  opacity:.75
+  padding:0;
+  margin:0;
+}
+
+.row{
+  text-align:center;
+  margin:100px 0 0 0;
+
+}
+.nav{
+  display:inline-block;
+  padding:10px;
+  font-family:'belligerent madness';
+  text-align: center;
+  color:#DAE2EC;
+  border:3px solid #3F3C28;
+  border-radius:5px;
+  padding:0 40px;
+  font-size:24px;
+  font-weight:200;
+  background-color:#3f3c28;
+}
+
+.welcome {
+  font-size:50px;
+  padding:0;
+  color:#1D2222;
+  font-weight:700;
+  font-family:'belligerent madness';
+  text-shadow:1px 5px 2px black:
+}
+
+.motto{
+  font-size:25px;
+}
+
+.project{
+  text-align:center;
+  font-size:30px;
+  font-family:'belligerent madness';
+  color:#1D2222;
+  padding:13px 0 0 0;
+}
