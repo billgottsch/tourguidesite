@@ -26,6 +26,13 @@
   border-bottom-right-radius: 15px;
 }
 
+.nav-bar-sectionlink{
+  text-decoration: none;
+  color:#dae2ec;
+  font-size:22px;
+
+}
+
 .nav-bar{
   display:inline-block;
   margin:0;
@@ -37,9 +44,9 @@
   font-weight:200;
   background-color:#3f3c28;
 }
-.nav-bar:hover{
-  color:#1560fb;
-  border-color:#dae2ec;
+.nav-bar-sectionlink:hover{
+  text-decoration: none;
+  color:orange;
 }
 
 .row{
@@ -130,6 +137,13 @@
 .profile p{
   padding:0 10px 0 10px;
   font-size:14px;
+}
+
+.profile .myname{
+  text-align:center;
+  font-size:28px;
+  color:#3f3c28;
+  font-weight:bold;
 }
 
 .travelpackage{
