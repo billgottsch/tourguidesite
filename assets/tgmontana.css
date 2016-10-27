@@ -125,15 +125,15 @@
   border-radius:1000px;
   border:3px solid #3f3c28;
   width:100%;
+  display:inline-block;
 }
 .profile p{
-  padding:0 0 0 20px;
+  padding:0 10px 0 10px;
   font-size:14px;
-  border-right: 1px dotted #3f3c28;
 }
+
 .travelpackage{
   padding:20px;
-  border:1px solid #3f3c28;
   border-radius:15px;
   color:#3f3c28;
 }
@@ -147,34 +147,50 @@
   color:#3f3c28;
 }
 
-.section-bottom{
-  height:100px;
-  width:100%;
+.section-four{
   background-color:#3f3c28;
-}
-
-.section-bottom h3{
+  height:100px;
+  color:white;
   text-align:center;
-  color:#dae2ec;
-  font-size:16px;
+  font-size:bold;
 }
 
 
-.section-bottom h3 a{
-  color:#4da7de;
-  text-align: center;
+.section-four p{
+  margin:0;
+  padding:0;
+
+
 }
+.socialtags{
+  font-size:28px;
+  padding:0 20px 0 20px;
+  margin:0;
+  color:#1560fb;
+  text-decoration: none;
+  font-weight:bolder;
+}
+
+.socialtags:hover{
+  color:white;
+  text-decoration:none;
+
+}
+
+
+
 
 
 /*---------MEDIA INFO BELOW* ---------*/
 
 @media (max-width: 980px){
-  body{
-    background-color:magenta;
-  }
+
   .nav-bar{
     padding:0 20px;
     font-size: 16px;
+  }
+  .profilepicture{
+    width:80%;
   }
 }
 
@@ -186,11 +202,13 @@
 .piclink h1{
   opacity:1;
 }
-@media (max-width: 660px){
 
-  body{
-    background-color:red;
+  .profilepicture{
+    width:70%;
   }
+
+
+@media (max-width: 768px){
 
   .welcome{
     font-size:40px;
@@ -210,19 +228,44 @@
     width:100%;
     margin:5px;
   }
+
   .nav-bar.leftbar{
     border-radius:0;
   }
+
   .nav-bar.rightbar{
     border-radius:0;
   }
+
+  .profilepicture{
+    width:50%;
+
+  }
+  .travelpackage{
+    text-align:center;
 }
 
-@media (max-width:455px){
+@media (max-width:425px){
+
+  .piclink h1{
+    padding:96px;
+  }
+
+  .profilepicture{
+    width:50%;
+  }
+
+
+}
+
+@media (max-width:375px){
   .pttd{
     font-size:24px;
   }
   .piclink h1{
     padding:60px;
+  }
+  .profilepicture{
+    width:50%;
   }
 }
